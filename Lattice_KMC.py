@@ -19,7 +19,7 @@ from matplotlib import rcParams
 ##Simulation parameters
 d = 50 #Length of the lattice (in both directions) in terms of number of sites
 max_simulation_time=10 #The length of simulated time for which it will go on for (in s)
-
+number_of_runs = 3
 ##Condition parameters
 temperature = 600  #In K
 starting_CO_fraction = 0.5 #What fraction of the starting reactant gas mixture (of CO and H2O) is CO?
@@ -956,7 +956,7 @@ sweep = 0
 
 temp_run = 0
 run = 0
-number_of_runs = 3
+
 while temp_run<3:
     print("")
    # temperature +=25
